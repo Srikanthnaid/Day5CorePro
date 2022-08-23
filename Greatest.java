@@ -25,7 +25,11 @@ public class Greatest {
 		{
 			System.out.println("B is greater :"+b);
 		}
-		else
+		else if(a==b || a==c)
+		{
+			System.out.println("all numbers are same");
+		}
+		else 
 		{
 			System.out.println("C is greater: "+c);
 		}
