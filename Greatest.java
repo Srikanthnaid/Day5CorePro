@@ -2,6 +2,7 @@
  * @author srikanth naidu
  * a>b && a>c
  * b>a && b>c
+ * a==b || a==c
  */
 import java.util.Scanner;
 
