@@ -1,6 +1,6 @@
 /**
  * @author srikanth naidu
- * 2*i=>n check
+ * 2*i<=n check
  */
 import java.util.Scanner;
 

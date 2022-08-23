@@ -2,7 +2,7 @@
  * @author srikanth naidu
  * Leapyear coming after 4 years
  * decade years is divisible 400
- * 		2000/400 
+ * 		2000/400 or 100 
  * non_decade years is divisible by 4
  * 			2024%4
  */
@@ -15,7 +15,7 @@ public class LeapYear {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("please enter the Year : ");
 		int years = sc.nextInt();
-		if( years%400==0 ||  years%4==0)
+		if( years%400==0 ||  years%100!=0 && years%4==0)
 		{
 			System.out.println("It is a leap year : " +years);
 		}
