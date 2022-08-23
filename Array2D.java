@@ -6,6 +6,7 @@
  *		2*2 matrix
  *		|a1 b1|
  *		|a2 b2|
+ *		m=rows $$ n=cols
  */
 import java.util.Scanner;
 public class Array2D
@@ -23,11 +24,11 @@ public class Array2D
 	    	 }
 	   }
 	     System.out.println("Matrix : \n");
-	     for (int i=0;i<2;i++)//rows
+	     for (int rows=0;rows<2;rows++)//rows
 	     {
-	    	 for(int j=0;j<2;j++)//columns
+	    	 for(int cols=0;cols<2;cols++)//columns
 	    	 {
-	    		 System.out.print(a[i][j] +"");
+	    		 System.out.print(a[rows][cols] +"");
 	    	 }
 	    	 System.out.println();
 	     }
